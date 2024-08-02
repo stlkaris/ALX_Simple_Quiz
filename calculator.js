@@ -33,7 +33,7 @@ document.getElementById('multiply').addEventListener('click', function(){
 
 
 function divide(number1, number2) {
-    if(number2 ===0){
+    if(number2 === 0){
         return "Cannot divide by zero"
     }
     return number1 / number2
