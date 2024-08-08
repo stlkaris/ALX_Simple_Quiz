@@ -5,7 +5,7 @@ function checkAnswer () {
     
    const userAnswer = selectedAnswer ? selectedAnswer.value : null;
    
-   if(userAnswer === correctAnswer) {
+   if (userAnswer === correctAnswer) {
       document.getElementById('feedback').textContent = 'Correct! well done.';
    } else {
       document.getElementById('feedback').textContent = "That's incorrect. Try again!";
